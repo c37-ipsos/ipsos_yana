@@ -823,6 +823,19 @@ p {
     color: rgba(255, 255, 255, 0.7);
 }
 
+.contact-item .email-link {
+    font-size: 0.95rem;
+    color: var(--orange);
+    text-decoration: none;
+    margin-top: 4px;
+    transition: color 0.3s ease;
+}
+
+.contact-item .email-link:hover {
+    color: var(--primary-blue);
+    text-decoration: underline;
+}
+
 .cta-button {
     display: inline-block;
     background: var(--orange);
